@@ -1,0 +1,117 @@
+/*  Navbar stays on top */
+.navbar {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: #333;
+    color: #fff;
+    z-index: 999;
+}
+button {
+    background-color: #333;
+    margin: 0;
+    margin-top: 0.5em;
+    padding: .5em;
+    color:#fff;
+    float: left;
+}
+.navbar a {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    color:#fff;
+    padding: 0.75em;
+    padding-right: 0;
+    text-decoration: none;
+    float: left;
+    font-size: larger;
+}
+.navbar a:hover {
+    background-color: #555
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    top: 100%;
+    left:10em;
+    z-index:1000;
+}
+.dropdown-content a{
+    padding: 0.75em 1em;
+}
+.dropdown {
+    overflow: hidden;  
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*  End navbar */
+
+body {
+    background-image: url('../images/BaldursGatebackground.jpg');
+    background-repeat:repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+h1 {
+    background-color: #3C4047;
+    padding: 1em;
+    text-align: center;
+    color:#fff;
+    border-radius: 8px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    max-width: 33em;
+    line-height: 1.3em;
+    margin: 0 auto;
+    margin-top: 4em;
+    font-size:x-large;
+
+}
+figure {
+    max-width: 50em;
+    border-radius: 8px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+cite{
+    color: #fff
+
+}
+img {
+    padding:0.5em;
+}
+main {
+    background-color: #3C4047;
+    padding: 1em;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    max-width: 50em;
+    line-height: 1.3em;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+section {
+    background-color: #C7D190;
+    padding: 1em;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #697330;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    max-width: 50em;
+    margin: 1em auto;
+
+}
+#intro, #details, #location {
+
+}
+.locbox {
+
+}
+footer {
+
+}

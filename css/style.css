@@ -51,9 +51,6 @@ button {
 
 body {
     background-image: url('../images/BaldursGatebackground.jpg');
-    background-repeat:repeat;
-    background-attachment: scroll;
-    background-size: cover;
 }
 h1 {
     background-color: #3C4047;
@@ -72,8 +69,9 @@ h1 {
 }
 figure {
     max-width: 50em;
+    background-color: #C7D190;
     border-radius: 8px;
-    border: 2px solid #000;
+    border: 2px solid #697330;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 cite{
@@ -104,7 +102,35 @@ section {
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
     max-width: 50em;
     margin: 1em auto;
+    transition: transform 0.2s ease;
 
+}
+
+section.info {
+    max-width: 21.5em;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    min-height: 15em;
+}
+section.info2 {
+    max-width: 21.5em;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    border: none;
+    box-shadow: none
+
+}
+h3
+h3 {
+    text-align: center;
+}
+li {
+    text-align: left;
+}
+section:hover {
+    transform: scale(1.02)
 }
 #intro, #details, #location {
 

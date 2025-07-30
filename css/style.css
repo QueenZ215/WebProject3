@@ -79,6 +79,9 @@ figure {
     border: 2px solid #697330;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
+img {
+    float:initial;
+}
 cite{
     color: #fff
 

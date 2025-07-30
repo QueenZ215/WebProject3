@@ -62,10 +62,15 @@ h1 {
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
     max-width: 33em;
     line-height: 1.3em;
-    margin: 0 auto;
-    margin-top: 4em;
+    margin: 4em auto 0;
+    /* margin-top: 4em; */
     font-size:x-large;
 
+}
+h1 sub {
+    font-size: 0.5em;
+    margin: 0;
+    padding-top:0;
 }
 figure {
     max-width: 50em;
@@ -122,7 +127,6 @@ section.info2 {
     box-shadow: none
 
 }
-h3
 h3 {
     text-align: center;
 }
@@ -132,12 +136,13 @@ li {
 section:hover {
     transform: scale(1.02)
 }
-#intro, #details, #location {
-
-}
-.locbox {
-
-}
 footer {
-
+    bottom: 0;
+    width:100%;
+    background-color: #333;
+    color: #fff;
+    font-size: smaller;
+}
+footer a {
+    color:aqua;
 }
